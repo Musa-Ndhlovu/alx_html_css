@@ -1,0 +1,38 @@
+body, main {
+    display: flex;
+}
+
+body{
+    display: header, main, footer;
+    flex-direction: column;
+}
+
+main {
+    display: article, aside;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    padding: 0.666;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    padding: 0.3333;
+    overflow-y: auto;
+}
+
+ body{
+    backfround-color: rgb(172, 240, 172);
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top-left;
+    margin-right: 10px;
+}
