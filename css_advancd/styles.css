@@ -1,24 +1,63 @@
-banner{
-    background-image:'Object.png';
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+header{ 
+    padding: 20px;
 }
+
+nav {
+display: flex;
+align-items: center;
+}
+
+a{ 
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 25px;
+}
+
+.leading p{
+    margin : 50%
+ }
 
 button{
     color: purple;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
+
+h3{
+    text-align: center;
+    line-height: 25px;
+}
 h4{
     color: white;
+    line-height: 25px;
 }
 
- {
-    color: white;
+/* profiles */
+.profile{
+ display: flex;
+ justify-content: below;
 }
+
+.profile{
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
 #Membership{
-    background: rgb(39, 39, 39)
+    background: rgb(39, 39, 39);
 }
+
 #Footer{
     background: rgb(39, 39, 39);
 }
