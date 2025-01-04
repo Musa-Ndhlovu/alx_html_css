@@ -1,19 +1,19 @@
+/* Banner */
 header{ 
     padding: 20px;
 }
 
 nav {
-display: flex;
-align-items: center;
-}
+    display: flex;
+    align-items: center;
+    }
 
-a{ 
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 10px;
-    
-}
-
+    a{ 
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;   
+    }
+ 
 h1{
     margin-top: 50px;
     text-align: center;
@@ -21,9 +21,13 @@ h1{
     line-height: 25px;
 }
 
-.leading p{
-    margin : 50%
- }
+/*SMILE GRIN LAUGH*/
+
+button{
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+}
 
 button{
     color: purple;
@@ -31,11 +35,11 @@ button{
     border-radius: 10px;
 }
 
-
 h3{
     text-align: center;
     line-height: 25px;
 }
+
 h4{
     color: white;
     line-height: 25px;
@@ -43,8 +47,9 @@ h4{
 
 /* profiles */
 .profile{
+margin-top: 80px 0;
  display: flex;
- justify-content: below;
+justify-content: space-around;
 }
 
 .profile{
@@ -52,12 +57,54 @@ h4{
     width: 300px;
     border-radius: 20px;
     margin: 0 20px;
+    background-color: gray;
+}
+/*Quotes*/
+.quote{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
 }
 
+.quote{
+    background-color: rgb(176, 112, 236);
+}
+/*Video List*/
+
+/*Membership*/
 #Membership{
     background: rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.membership { display: flex; 
+    flex-direction: column;
+    
+ }
+
+ /*F.A.Q.*/
+table.a {
+    table-layout: auto;
+    width: 800px;
+    text-align: left;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+thead{
+    font-weight: bold ;
+}
+
+  table.b {
+    table-layout: auto;
+    width: 800px;
+    text-align: left;
+    margin-left: auto;
+    margin-right:auto;
+  }
+/*footer*/
 #Footer{
     background: rgb(39, 39, 39);
 }
+
