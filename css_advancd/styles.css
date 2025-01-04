@@ -55,7 +55,7 @@ h1.one{
 
 
 .highlight {
-    color: purple;
+    color: rgb(170, 52, 170);
     font-weight: bold;
 }
 button{
@@ -66,7 +66,7 @@ button{
 }
 
 button{
-    color: purple;
+    color: rgb(170, 55, 170);
     padding: 10px 15px;
     border-radius: 10px;
 }
@@ -77,10 +77,7 @@ h3{
     line-height: 200px;
 }
 
-h4{
-    color: white;
-    line-height: 25px;
-}
+
 
 /* profiles */
 .profiles{
@@ -116,18 +113,42 @@ h4{
     background-size: 500px;
 }
 /*Video List*/
-
-/*Membership*/
-#Membership{
-    background: rgb(39, 39, 39);
-    display: flex;
-    justify-content: space-evenly;
+.videos{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
 }
 
-.membership { display: flex; 
-    flex-direction: column;
-    
- }
+.video{
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.video image{
+    max-height: 300px;
+    max-width: 150px;
+}
+
+.smile{
+    font-weight: bold;
+    line-height: 30px;
+    }
+
+/*Membership*/
+.memberships{ 
+    display: flex;
+    justify-content: center;
+    gap: 60px
+}
+.membership{
+    text-align: center;
+}
+
+.membership img{
+    max-width: 100px;
+
+}
 
  /*F.A.Q.*/
 table.a {
