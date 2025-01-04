@@ -1,4 +1,13 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Banner */
+#banner {
+    background-image: Object.png;
+}
+
 header{ 
     padding: 20px;
 }
@@ -17,27 +26,50 @@ nav {
 h1{
     margin-top: 50px;
     text-align: center;
-    font-size: 50px;
-    line-height: 25px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif, Verdana, sans-serif;
+    font-weight: bold;
+}
+h1{
+    line-height: 80px;
+}
+h1.one{
+    font-weight: 400;
+}
+/*SMILE GRIN LAUGH*/
+.schooled{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
+    word-spacing: 25px;
+}
+.schooled{
+    line-height: 50px;
+
 }
 
-/*SMILE GRIN LAUGH*/
 
+.highlight {
+    color: purple;
+    font-weight: bold;
+}
 button{
     margin-left: auto;
     margin-right:auto;
     display: flex;
+   
 }
 
 button{
     color: purple;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
 }
 
+
 h3{
     text-align: center;
-    line-height: 25px;
+    line-height: 200px;
 }
 
 h4{
@@ -46,19 +78,19 @@ h4{
 }
 
 /* profiles */
-.profile{
-margin-top: 80px 0;
- display: flex;
-justify-content: space-around;
+.profiles{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .profile{
-    height: 100px;
-    width: 300px;
-    border-radius: 20px;
-    margin: 0 20px;
-    background-color: gray;
+    text-align: center;
 }
+.profile img{
+    max-width: 100px;
+}
+
 /*Quotes*/
 .quote{
     margin: 80px 0;
