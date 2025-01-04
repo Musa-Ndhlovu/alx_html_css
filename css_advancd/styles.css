@@ -3,6 +3,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{ background-image: "Object.png";
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 /* Banner */
 #banner {
     background-image: Object.png;
@@ -96,10 +101,19 @@ h4{
     margin: 80px 0;
     display: flex;
     justify-content: center;
+    gap: 20px;
+    padding: 70px;
 }
-
+.name{
+    font-weight: bold;
+    
+}
+.quote img{
+    max-width: 100px;
+}
 .quote{
     background-color: rgb(176, 112, 236);
+    background-size: 500px;
 }
 /*Video List*/
 
