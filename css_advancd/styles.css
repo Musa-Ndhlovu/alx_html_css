@@ -136,10 +136,19 @@ h3{
     }
 
 /*Membership*/
+.Membershipss{
+    background: rgb(39, 39, 39);
+    margin-top: 0px;
+    
+    padding: 80px;
+
+}
 .memberships{ 
     display: flex;
+    line-height: 20px;
+    flex-direction: row;
     justify-content: center;
-    gap: 60px
+    gap: 60px 
 }
 .membership{
     text-align: center;
@@ -147,31 +156,46 @@ h3{
 
 .membership img{
     max-width: 100px;
-
 }
 
+.lorem{
+    font-weight: bold;
+    line-height: 40px;
+}
+.highlights{
+    color: white;
+}
  /*F.A.Q.*/
-table.a {
-    table-layout: auto;
+.FAQ{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
     width: 800px;
-    text-align: left;
+    border-collapse: collapse;
+    table-layout: auto;
     margin-left: auto;
-    margin-right:auto;
-  }
+    margin-right: auto;
 
-thead{
-    font-weight: bold ;
 }
 
-  table.b {
-    table-layout: auto;
-    width: 800px;
-    text-align: left;
-    margin-left: auto;
-    margin-right:auto;
-  }
+th{
+    font-weight: bold;
+}
+td{
+    font-weight: light;
+}
+th, td {
+   padding: 10px;
+   text-align: left;  
+}
+
+
 /*footer*/
 #Footer{
     background: rgb(39, 39, 39);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 50px;
 }
 
