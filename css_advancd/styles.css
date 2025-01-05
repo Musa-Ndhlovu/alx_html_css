@@ -5,7 +5,7 @@ body{
 
 /* Banner */
 .Banner{
-    background-image'Object.png';
+    background-image:'Object.png';
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -148,8 +148,6 @@ h3{
     top: 1300px;
     left: 160px;
     transform: translate(-50%, -50%)
-    width: 50%;
-    height: auto;
     opacity: 0.8;
 }
 
@@ -158,8 +156,6 @@ h3{
     top: 1300px;
     left: 460px;
     transform: translate(-50%, -50%)
-    width: 50%;
-    height: auto;
     opacity: 0.8;
 }
 
@@ -168,8 +164,6 @@ h3{
     top: 1300px;
     left: 790px;
     transform: translate(-50%, -50%)
-    width: 50%;
-    height: auto;
     opacity: 0.8;
 }
 
@@ -178,10 +172,9 @@ h3{
     top: 1300px;
     left: 1100px;
     transform: translate(-50%, -50%)
-    width: 50%;
-    height: auto;
     opacity: 0.8;
 }
+
 /*Membership*/
 .Membershipss{
     background: rgb(39, 39, 39);
