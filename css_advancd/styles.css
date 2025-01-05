@@ -3,14 +3,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{ background-image: "Object.png";
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
 /* Banner */
-#banner {
-    background-image: Object.png;
+.Banner{
+    background-image'Object.png';
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
 }
 
 header{ 
@@ -113,6 +112,10 @@ h3{
     background-size: 500px;
 }
 /*Video List*/
+.videoo{
+    margin-bottom:100px;
+    padding: 80px;
+}
 .videos{
     display:flex;
     justify-content: center;
@@ -135,14 +138,56 @@ h3{
     line-height: 30px;
     }
 
+.background-image{ 
+    width: 100%;
+    height: auto;
+}
+
+.overlay-image1{
+    position: absolute;
+    top: 1300px;
+    left: 160px;
+    transform: translate(-50%, -50%)
+    width: 50%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.overlay-image2{
+    position: absolute;
+    top: 1300px;
+    left: 460px;
+    transform: translate(-50%, -50%)
+    width: 50%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.overlay-image3{
+    position: absolute;
+    top: 1300px;
+    left: 790px;
+    transform: translate(-50%, -50%)
+    width: 50%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.overlay-image4{
+    position: absolute;
+    top: 1300px;
+    left: 1100px;
+    transform: translate(-50%, -50%)
+    width: 50%;
+    height: auto;
+    opacity: 0.8;
+}
 /*Membership*/
 .Membershipss{
     background: rgb(39, 39, 39);
-    margin-top: 0px;
-    
-    padding: 80px;
-
+    padding: 60px;
 }
+
 .memberships{ 
     display: flex;
     line-height: 20px;
@@ -195,7 +240,7 @@ th, td {
 #Footer{
     background: rgb(39, 39, 39);
     margin-top: 80px;
-    margin-bottom: 80px;
+    
     padding: 50px;
 }
 
