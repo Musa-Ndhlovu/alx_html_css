@@ -1,22 +1,115 @@
 /*our results*/
-
-.results{
-    display: flex;
-    line-height: 20px;
-    flex-direction: row;
-    justify-content: center;
-    gap: 60px 
+h1 {
+    text-align: center;
+    font-weight: bold ;
+    font-size: 40px;
+    padding-top: 50px;
 }
 
-.results{
+p { 
     text-align: center;
 }
 
-.results img{
-    max-width: 100px;
+.our results{
+    margin-bottom:100px;
+    padding: 80px;
+}
+.our-results{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
 }
 
-.percent{
-    font-size: 10px;
-    font-weight: bold;
+.image{
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
 }
+
+.image image{
+    max-height: 300px;
+    max-width: 150px;
+}
+
+.image{
+    display: block;
+}
+
+.inside{ 
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate (-50, -50);
+}
+
+
+
+.percent1{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 310px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .percent2{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 560px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9; 
+  }
+  .percent3{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 800px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+  .percent4{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 1060px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside1{
+    position:absolute; 
+    top: 390px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside2{
+    position:absolute; 
+    top: 390px;
+    left: 550px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside3{
+    position:absolute; 
+    top: 390px;
+    left: 800px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside4{
+    position:absolute; 
+    top: 390px;
+    left: 1050px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }

@@ -1,4 +1,12 @@
 /*header*/
+.background{
+    background-image: "headphones_hero_1.jpg";
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
 header{
     padding: 20px;
 }
