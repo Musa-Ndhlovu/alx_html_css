@@ -1,7 +1,5 @@
+
 /*header*/
-
-
-
 header{
     padding: 20px;
 }
@@ -9,6 +7,13 @@ header{
 nav{
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    }
+
+    nav a:hover{
+        color:red;
     }
 
 a{ 
