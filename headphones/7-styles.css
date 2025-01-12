@@ -1,0 +1,298 @@
+/*what we do*/
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+p{ 
+    text-align: center;
+}
+
+.entertain{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding: 80px;
+}
+.entermainment{
+    display: flex;
+   justify-content: center;
+   gap: 60px;
+}
+
+.image image{
+    max-height: 300px;
+    max-width: 150px;
+}
+
+.image{
+    display: block;
+}
+
+.lorem{ 
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/*media Queries for a small device*/
+@media screen and (max-width: 480px) {
+
+    header {
+        font-size: 18px;
+    }
+
+    .logo{
+        size: 00px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    p{ 
+      font-size: 14px  
+    }
+  }
+
+/*our results*/
+h1 {
+    text-align: center;
+    font-weight: bold ;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+p { 
+    text-align: center;
+}
+
+.our results{
+    margin-bottom:100px;
+    padding: 80px;
+}
+.our-results{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.image{
+    text-align: left;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.image image{
+    max-height: 300px;
+    max-width: 150px;
+}
+
+.image{
+    display: block;
+}
+
+.inside{ 
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate (-50, -50);
+}
+
+
+
+.percent1{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 310px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .percent2{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 560px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9; 
+  }
+  .percent3{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 800px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+  .percent4{
+    font-size: 40px;
+    font-weight: bold;
+    position:absolute; 
+    top: 330px;
+    left: 1060px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside1{
+    position:absolute; 
+    top: 390px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside2{
+    position:absolute; 
+    top: 390px;
+    left: 550px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside3{
+    position:absolute; 
+    top: 390px;
+    left: 800px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .inside4{
+    position:absolute; 
+    top: 390px;
+    left: 1050px;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+  }
+
+  .highlight{
+    color: white;
+  }
+
+  /*media Queries for a small device*/
+@media screen and (max-width: 480px) {
+
+  header {
+      font-size: 18px;
+  }
+
+  .logo{
+      size: 00px;
+  }
+  h1{
+      font-size: 18px;
+  }
+  p{ 
+    font-size: 14px  
+  }
+}
+  
+
+.footer{
+    background-color: rgb(41, 41, 41);
+    padding: 80px;
+    position: relative;
+}
+
+/*media Queries for a small device*/
+@media screen and (max-width: 480px) {
+
+    header {
+        font-size: 18px;
+    }
+
+    .logo{
+        size: 00px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    p{ 
+      font-size: 14px  
+    }
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #what-we-do .item {
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  #our-results .item {
+    animation: spin 5s linear infinite;
+  }
+  2. Hover Animation (Triggered on Hover)
+  css
+  Copy code
+  #what-we-do .item {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  #what-we-do .item:hover {
+    transform: scale(1.2) rotate(10deg);
+    opacity: 0.8;
+  }
+  
+  #our-results .item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #our-results .item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  Combining Both
+  You can mix continuous animations with hover effects for an engaging user experience:
+  
+  css
+  Copy code
+  @keyframes fade {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
+  #what-we-do .item {
+    animation: fade 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  #what-we-do .item:hover {
+    transform: scale(1.2);
+  }
+  
+  #our-results .item {
+    animation: bounce 2s ease-in-out infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  #our-results .item:hover {
+    transform: rotate(15deg) scale(1.1);
+  }
