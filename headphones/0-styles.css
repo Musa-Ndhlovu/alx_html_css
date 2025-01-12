@@ -50,3 +50,13 @@ button{
 .highlight{ 
     color: white;
 }
+
+
+/*media Queries for a small device*/
+@media screen and (max-width: 600px) {
+    nav a:not(:first-child) {
+        display: none;
+    }
+
+    
+  }
