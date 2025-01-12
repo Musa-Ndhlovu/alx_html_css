@@ -35,3 +35,21 @@ p{
     font-weight: bold;
     line-height: 40px;
 }
+
+/*media Queries for a small device*/
+@media screen and (max-width: 480px) {
+
+    header {
+        font-size: 18px;
+    }
+
+    .logo{
+        size: 00px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    p{ 
+      font-size: 14px  
+    }
+  }

@@ -53,10 +53,22 @@ button{
 
 
 /*media Queries for a small device*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     nav a:not(:first-child) {
         display: none;
     }
 
-    
+    header {
+        font-size: 18px;
+    }
+
+    .logo{
+        size: 00px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    p{ 
+      font-size: 14px  
+    }
   }
