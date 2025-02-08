@@ -41,12 +41,22 @@ h1{
 h1.one{
     font-weight: 400;
 }
+
+.one{ 
+    color: white
+}
+
+.highlighting {
+     color: white
+}
 /*SMILE GRIN LAUGH*/
 .schooled{
+   
     text-align: center;
     justify-content: space-between;
     font-size: 20px;
     word-spacing: 25px;
+    color: white
 }
 .schooled{
     line-height: 50px;
